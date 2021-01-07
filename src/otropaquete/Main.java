@@ -11,8 +11,10 @@ public class Main {
 
 		Vehiculo[] vehiculosPepe = new Vehiculo[3];
 
+		vehiculosPepe[0] = m;
+		vehiculosPepe[1] = h;
+		vehiculosPepe[2] = a;
 		
-
 		pepe.setVehiculo(vehiculosPepe);
 		
 		System.out.println(pepe.muestroValores());
