@@ -33,16 +33,5 @@ public class Orden {
 			total += this.productos[i].getPrecio();			
 		}
 		return total;
-		
-		
-	}
-	public void mostrarOrden()
-	{
-		System.out.println("Orden nro:"+ this.IdOrden);
-		
-		
-	}
-
-
-	
+	}	
 }
