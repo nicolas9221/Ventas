@@ -37,8 +37,9 @@ public class Persona {
 	{
 		for (int i = 0; i < vehiculos.length; i++) {
 			System.out.println("Vehiculo nro "+ i);
-			System.out.println("La marca es: "+this.vehiculos[i].getMarca());
-			System.out.println("La patente es: "+this.vehiculos[i].getPatente());			
+			System.out.println("La marca es:"+this.vehiculos[i].getMarca());
+			System.out.println("La patente es :"+this.vehiculos[i].getPatente());
+			
 		}
 	}
 	
